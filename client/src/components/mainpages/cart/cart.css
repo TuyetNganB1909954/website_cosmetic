@@ -1,0 +1,67 @@
+/* 
+
+
+
+
+
+
+
+
+
+*/
+.amount span{
+    color:  #fd475d;
+    padding: 0 20px;
+}
+.amount button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #777;
+}
+.delete{
+    color:  #fd475d;
+    cursor: pointer;
+}
+.total{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total span{
+    color:  #fd475d;
+}
+#btn_pay{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+    background-color:#FF91AF;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+#btn_pay:hover{
+    color:  white;
+}
+.cart-img img{
+    display: block;
+    max-width:150px;
+    max-height:65px;
+    width: auto;
+ 
+}
+.cart-images{
+    width:5rem;
+}
+.cart-title{
+    width:35rem
+}
+.cart-price{
+    width:14rem;
+  
+}
+.cart-sum{
+    width:15rem
+}
+

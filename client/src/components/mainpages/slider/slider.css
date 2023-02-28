@@ -1,0 +1,13 @@
+.slider-l{
+    width: 80%;
+    float: left;
+}
+.slider-r{
+    width: 30%;
+    float: right;
+    margin-left: 10px;
+}
+.slider-r img{
+   max-height: 54%;
+   
+}

@@ -1,0 +1,23 @@
+/* .App {
+  text-align: center;
+} */
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column-slide {
+  flex: 10%;
+  height: auto; 
+  /* background-color: #313A46; */
+  
+  background-image: linear-gradient(to bottom, #141314, #1f1e1f, #2a2829, #353334, #413f40);
+
+  margin: 20px 0 20px 15px ;
+  border-radius: 5px;
+}
+.column-main{
+  flex: 70%;
+  height: auto; 
+}

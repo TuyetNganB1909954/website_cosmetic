@@ -1,0 +1,76 @@
+
+.product_card{
+    max-width: 300px;
+    overflow: hidden;
+    height: 500px;
+    padding: 15px ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px 20px;
+    position: relative;
+}
+.product_card img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+.product_card h2{
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #000;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+.product_card span{
+    color: #fd475d;
+    font-size: 1.2rem;
+}
+.product_box p{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    height: 30px;
+    overflow: hidden;
+    color: #323232;
+}
+.row_btn{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.row_btn a{
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    padding: 6px;
+    text-decoration: none;
+}
+.row_btn a:hover{
+    color: #fd475d;
+}
+#btn_buy{
+    background: rgb(209, 208, 208);
+    margin-right: 5px;
+    border-radius: 3px;
+    color: #000;
+}
+#btn_view{
+    background:#000;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+.product_card input{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}

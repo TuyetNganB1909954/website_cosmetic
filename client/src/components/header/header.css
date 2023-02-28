@@ -1,0 +1,33 @@
+header h2{
+    color:#FF91AF;
+    font-weight: 900;
+}
+header a{
+    text-transform: uppercase;
+    color :#1a1a1a;
+    text-decoration:none ;
+    font-weight: 500;
+}
+.header-link:hover{
+    color: #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
+    font-weight: 500;
+}
+
+
+.cart-icon{
+    position: relative;
+   margin: 10px 10px 2px 10px;
+
+}
+.cart-icon span{
+    background:  #fd475d;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    top:-10px;
+    right: -10px;
+    padding: 5px 7px;
+    font-size: 10px;
+
+}

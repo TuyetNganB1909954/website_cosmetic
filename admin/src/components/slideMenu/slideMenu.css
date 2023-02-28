@@ -1,0 +1,19 @@
+.slider h2{
+    color: white;
+    padding: 20px 0 0 ;
+}
+.slider hr {
+    color: white;
+}
+.slider .nav-link{
+    color: white;
+    font-size: 1.3rem;
+}
+.slider .nav-link:hover{
+    font-weight: 500;
+    color: yellow;
+}
+.slider{
+    padding-bottom: 2rem;
+    
+}

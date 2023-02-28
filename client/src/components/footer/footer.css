@@ -1,0 +1,16 @@
+.finally {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 18px 0 1px 0 ;
+   
+     color: #f97a9c;
+     text-align: center;
+     margin-top: auto;
+     max-height: 20px;
+     font-weight: 500;
+     background-color: #f8f9fa;
+ };
+ /* .footer-top{
+    background-color: #f8f9fa;
+ } */
